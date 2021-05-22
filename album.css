@@ -1,0 +1,46 @@
+.links
+{
+    border:2px solid red;
+    padding:1px;
+    margin:100px;
+    margin-top:20;
+    background-color: green;
+    width: 200px;
+
+
+}
+.links a{
+    margin: 3px 3px;
+    display:block;
+    border: 2px solid red;
+    padding: 5px;
+    text-align: center;
+    background-color: blue;
+    color: yellow;
+    font-family: calibri;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: blueviolet;
+    text-decoration: none;
+    background-color: brown;
+}
+.links a span{
+    display: none;
+}
+
+.links a:hover span{
+    text-align: left;
+    display:block;
+    border: 2px solid maroon;
+    position: absolute;
+    left:350px;
+    top:80px;
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
